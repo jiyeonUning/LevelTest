@@ -216,6 +216,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &542874243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2544490284610337448, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
+  m_PrefabInstance: {fileID: 1622855129}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &542874246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 542874243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 668b2049c4652b746a0d1ecd07f3e694, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 3
+  rate: 3
+  rotateSpeed: 1
 --- !u!1 &1112444431
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,8 +343,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1304621668}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.35984084, y: -0.03569732, z: 0.014221573, w: -0.93222207}
+  m_LocalPosition: {x: 0.10036898, y: 12.629153, z: -8.418616}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -338,6 +358,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 345025644814068340, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 345025644814068340, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
+      propertyPath: m_Constraints
+      value: 80
+      objectReference: {fileID: 0}
     - target: {fileID: 1995705173091326349, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -385,6 +413,10 @@ PrefabInstance:
     - target: {fileID: 2544490284610337448, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
       propertyPath: m_Name
       value: Player01
+      objectReference: {fileID: 0}
+    - target: {fileID: 3098409505986163003, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
+      propertyPath: m_Direction
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 680f2617f8a6c3041a818b25288582c9, type: 3}
